@@ -1,3 +1,0 @@
-# Home
-
-Useful, hopefuly.

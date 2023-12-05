@@ -1,7 +1,7 @@
 * **Home**
-    * [Deno](/action.md)
-        * [Default Params](/action#default-params)
-        * [Define Axiod Instance](/action#define-axiod-instance)
+    * [Deno](/README.md)
+        * [Default Params](/README.md#default-params)
+        * [Define Axiod Instance](/README.md#define-axiod-instance)
     * [Execute](/execute.md)
         * [Select](/execute.md#select)
         * [Insert](/execute.md#insert)
