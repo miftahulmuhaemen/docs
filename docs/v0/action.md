@@ -2,13 +2,13 @@
 
 Saat `action` kita hit via Qore-App, parameter yang dikirim balik itu seperti dibawah,
 > args
-```json
+```js
 {"payload_0": "1"}
 ```
 Payload yang dikirim semua berupa string, jangan lupa di konversi sesuai keperluan untuk selain string.
 
 > global
-```json
+```js
 {
     "QORE_DATA_ADMIN_SECRET": "RANDOM_TOKEN",
     "QORE_DATA_ENDPOINT": "https://staging-qore-data-xxxxxx-xxxxxx.xxxxxx.id",
@@ -19,7 +19,7 @@ Payload yang dikirim semua berupa string, jangan lupa di konversi sesuai keperlu
 Endpoint bisa berubah **(staging/production)** sesuai environment yang sedang kita gunakan, tetapi secret-nya tetap sama.
 
 > row
-```json
+```js
 {
     "id": 0,
     "name": null,
@@ -28,11 +28,11 @@ Endpoint bisa berubah **(staging/production)** sesuai environment yang sedang ki
 ```
 Normalnya tidak akan menyertakan kolom `many/view` kecuali spesifik disebutkan di kolom ini, tipenya nanti **object array**. Dan untuk yang `one/id-relation` kalau spesifik disebutkan akan menampilkan **object**, kalau tidak hanya `id` sesuai tipe yang didefinisikan.
 
-![Alt text](image.png)
+![Alt text](./img/image.png)
 
 > user
 
-```json
+```js
 {
 			"data": {
 				"active": true,
